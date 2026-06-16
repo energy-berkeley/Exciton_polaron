@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mchu03/venvs/specmap/lib64/python3.6/site-packages/distributed/cli/dask_worker.py", line 469, in <module>
+    go()
+  File "/home/mchu03/venvs/specmap/lib64/python3.6/site-packages/distributed/cli/dask_worker.py", line 464, in go
+    check_python_3()
+  File "/home/mchu03/venvs/specmap/lib64/python3.6/site-packages/distributed/cli/utils.py", line 33, in check_python_3
+    _unicodefun._verify_python3_env()
+AttributeError: module 'click._unicodefun' has no attribute '_verify_python3_env'
